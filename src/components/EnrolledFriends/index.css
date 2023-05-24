@@ -1,0 +1,258 @@
+.enrolled-container {
+  padding: 10px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .enrolled-container {
+    padding: 10px 160px;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+.refer-code {
+  width: 150px;
+}
+
+.enrolled-navigator {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.referral-code-head {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
+  color: #800080;
+}
+
+.balance-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet-head {
+  margin: 0;
+  padding: 0;
+  color: #800080;
+  font-size: 14px;
+}
+
+.balance-price {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.wallet-block {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+.cards-head {
+  font-size: 18px;
+  color: #800080;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.terms {
+  color: #800080;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.count {
+  color: #626262;
+  font-weight: 400;
+}
+
+.enrolled-cards-section {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .enrolled-cards-section {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: inset -5px 0 5px -5px rgba(0, 0, 0, 0.5);
+  }
+
+  .terms {
+    color: #800080;
+    margin-top: 80px;
+    font-weight: 500;
+  }
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    box-shadow: inset -5px 0 5px -5px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.card {
+  background-image: linear-gradient(to left, #800080, #ff864c);
+  border-radius: 20px;
+  padding: 10px 15px;
+  color: #ffffff;
+  width: 90%;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    background-image: linear-gradient(to left, #800080, #ff864c);
+    border-radius: 20px;
+    padding: 10px 15px;
+    color: #ffffff;
+    width: 700px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+  }
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.small-head {
+  margin-top: 0px;
+}
+
+.course {
+  border: 2px solid #eeaeae;
+  border-radius: 20px;
+  padding: 5px 8px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.courses-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .courses-list {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  .course {
+    border: 2px solid #eeaeae;
+    border-radius: 20px;
+    padding: 5px 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+
+.x {
+  height: 100px;
+  overflow-y: scroll;
+  padding-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .x {
+    height: 100px;
+    overflow-y: scroll;
+    padding-right: 60px;
+  }
+}
+
+.x::-webkit-scrollbar {
+  width: 6px;
+}
+
+.x::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.x::-webkit-scrollbar-thumb {
+  background-color: #eeaeae;
+  border-radius: 4px;
+}
+
+.earned-amount {
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 3px;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.date {
+  font-size: 14px;
+}
+
+.amount-head {
+  font-size: 14px;
+}
+
+.sm-back-option {
+  display: flex;
+  align-items: center;
+  color: #800080;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.back {
+  margin-left: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .earned-amount {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 3px;
+  }
+
+  .sm-back-option {
+    display: none;
+  }
+
+  .amount-head {
+    font-size: 16px;
+  }
+}
